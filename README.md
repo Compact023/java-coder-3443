@@ -9,7 +9,7 @@
 7. Zusätzliche Methoden/Funktionen lt. Angabe anlegen (void = keine Rückgabe)
 8. Wenn keine Rückgabe lt. Angabe -> public, protected, private + void + Methoden-/Funktions-Name
 9. Hauptprogramm von Angabe kopieren und in MAIN Klasse einfügen
-10. Kontrolle/Vergleich der Ausgabe mit SOLL Ausgabe (oft übersehen = bei toString : size() / absteigende || aufsteigende sortierung !)
+10. Kontrolle/Vergleich der Ausgabe mit SOLL Ausgabe (oft übersehen = bei toString : size() / absteigende || aufsteigende Sortierung !)
 
 ---
 
