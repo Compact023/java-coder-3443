@@ -22,4 +22,4 @@
 - protected void addMeasurement() => protected (=Zugriff von außen) / void (= KEIN Rückgabewert) / addMeasurement() (=Methode)
 
 - List<> (! mit Strg+leer = import.java.util.List !)
-- Listen sind Objekte und gehören initialisiert/erzeugt (mittels: new + LinkedList<> / ArrayList<> + ....) 
+- Listen sind eigene Klassen  => und gehören als Objekt initialisiert/erzeugt (mittels: new + LinkedList<> / ArrayList<> + ....) 

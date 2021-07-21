@@ -9,6 +9,10 @@ public class Bankkonto {
     protected Person eigentuemer;
     protected float kontostand;
 
+   
+    
+    
+
     public Bankkonto(String iban, Person eigentuemer) {
         this(iban, eigentuemer, 0f);
     }
