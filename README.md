@@ -9,4 +9,4 @@
 7. Zusätzliche Methoden/Funktionen lt. Angabe anlegen (void = keine Rückgabe)
 8. Wenn keine Rückgabe lt. Angabe dann Datentyp nach (public, protected, private) angeben = public int countMeasurements()
 9. Hauptprogramm von Angabe kopieren und in main Klasse einfügen (! @param nicht vergessen !)
-10. Kontrolle/Vergleich der Ausgabe mit soll Ausgabe (typisch Übersehen: size()!!!)
+10. Kontrolle/Vergleich der Ausgabe mit soll Ausgabe (typisch Übersehen: bei toString : size() + !!!)
