@@ -10,3 +10,10 @@
 8. Wenn keine Rückgabe lt. Angabe dann Datentyp nach (public, protected, private) angeben = public int countMeasurements()
 9. Hauptprogramm von Angabe kopieren und in main Klasse einfügen
 10. Kontrolle/Vergleich der Ausgabe mit SOLL Ausgabe (typisch Übersehen: bei toString : size() + !!!)
+
+---
+
+# Nützliche Infos/Erklärungen:
+
+private float avgTemperature() => private (=
+public Measurement maxTemperatureMeasurement() => public (=Zugriff möglich) / Measurement (=Rückgabe Wert) / maxTemperatureMeasurement() (=Methode)
