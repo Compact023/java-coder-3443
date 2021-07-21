@@ -15,5 +15,6 @@
 
 # Nützliche Infos/Erklärungen:
 
-private float avgTemperature() => private (=Zugriff von außen) / float (=Rückgabewert) / avgTemperature() (=Methode) 
-public Measurement maxTemperatureMeasurement() => public (=Zugriff von außen) / Measurement (=Rückgabewert) / maxTemperatureMeasurement() (=Methode)
+- private float avgTemperature() => private (=Zugriff von außen) / float (=Rückgabewert) / avgTemperature() (=Methode)
+
+- public Measurement maxTemperatureMeasurement() => public (=Zugriff von außen) / Measurement (=Rückgabewert) / maxTemperatureMeasurement() (=Methode)
