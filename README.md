@@ -21,5 +21,4 @@
 
 - protected void addMeasurement() => protected (=Zugriff von außen) / void (= KEIN Rückgabewert) / addMeasurement() (=Methode)
 
-- Listen: 1. List<> (! mit Strg+leer = import.java.util.List !)
-2. Listen sind Objekte und gehören initialisiert/erzeugt (~ this.measurements = new List<Measurement> measurements
+- Listen: - List<> (! mit Strg+leer = import.java.util.List !) - Listen sind Objekte und gehören initialisiert/erzeugt (~ this.measurements = new List<Measurement> measurements
