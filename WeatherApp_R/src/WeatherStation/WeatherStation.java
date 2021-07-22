@@ -15,8 +15,8 @@ public class WeatherStation {
     protected List<Measurement> measurements;
     
     public WeatherStation(String name) {
-        this.name = name; //warum hier kein new?
-        this.measurements = new LinkedList<Measurement>(); // und hier schon?
+        this.name = name;
+        this.measurements = new LinkedList<Measurement>();
     }
     
     public String getName() {
@@ -58,11 +58,11 @@ public class WeatherStation {
         }
     }
 
-    public Measurement maxTemperatureMeasurement() { // public Measurement = hier werden die Daten gespeichert oder?
+    public Measurement maxTemperatureMeasurement() {
         Measurement max = null;
 
         for (Measurement measurement : this.measurements) {
-            if (max == null || max.getTemperature() < measurement.getTemperature()) { //erklärung pls
+            if (max == null || max.getTemperature() < measurement.getTemperature()) {
                 max = measurement;
             }
         }
@@ -80,7 +80,7 @@ public class WeatherStation {
         return min;
     }
 
-    public float avgTemperature() { // hier float weil nix gespeichert wird (in List Measurement) sondern nur Rückgabe avgTemp? Korrekt?
+    public float avgTemperature() { 
         float sum = 0;
 
         for (Measurement measurement : this.measurements) {
