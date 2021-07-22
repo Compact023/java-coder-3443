@@ -16,9 +16,7 @@ public class Measurement {
         this.temperature = temperature;
         this.humidity = humidity;
     }
-    
-    // Warum zeiter Konstruktor? -> ist klar wegen time aber erklärung?
-    
+        
     public Measurement(Date time, float temperature, float humidity) {
         this.time = time;
         this.temperature = temperature;
@@ -53,7 +51,6 @@ public class Measurement {
     public String toString() {
         return "Measurement{" + "time=" + time + ", temperature=" + temperature + ", humidity=" + humidity + '}';
     }
-    
-    
+ 
 }
 
